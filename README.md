@@ -1,13 +1,13 @@
 # Project Title : Masjid2U
 # Group Members
--Anwar Ikhlas 
--Sallehudin Ali (1617315)
--Farhan Hatta 
--Fakhru Naim
+- Anwar Ikhlas 
+- Sallehudin Ali (1617315)
+- Farhan Hatta 
+- Fakhru Naim
 # 1.1 Introduction
 We plan to have an app that will display the information on lecture(kulliyyah) of the mosques around them, where our app will search the mosque using google map gps. We also think of putting the information of committtee if they have any query on the place itself or the lecture.
 # 1.2 Problem Description
-- 1.2.1 Background--
+- 1.2.1 Background
     
 - 1.2.2 Problem statement
     
