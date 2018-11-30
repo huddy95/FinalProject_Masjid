@@ -48,7 +48,9 @@
 Basically we will encounter problems of how to put the right information of the masjid. Then we will be having hard time to connect our app to the GPS system. Time and skill that we have also becomes part of our constraint.
 
 # 1.6 Project Stages
- -
+During the development of the project, there are several stages that are required to be completed before proceding to the next stage. In the design phase, the layout of the application will first be designed using sketches to get basic understanding of how the application will look like. Next, we can proceed to the development phase where 2 major milestones are carried out in parallel, the coding of the app layout and the programming of the functions of the app. This is achieved by assigning the task to pairs;one pair of team members design the layout while the other pair code the functions. The progress of the project can be tracked through the Gantt chart.
+
+![Project Schedule](documentation/gantt-chart.jpg)
 
 # 1.7 Significance of Project
 For the commity of the mosque, it is easier for them to promote all the lectures and programs. Then for the public citizen, we tried to make them closer to the mosque that is actually is just around them. It is also easier for the public to know who's the speaker of the lecture.
