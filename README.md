@@ -39,10 +39,7 @@
 - This application has two targeted users in which, the first targeted user is the Muslims community in general while the second targeted user is the Mosque community. The first target is the Muslims whom is looking for a place to perform their prayers and wishes to attend talks in one of the mosque available after they scan (GPS guided) the area using Masjid application. The second target is the Mosque community which wants to publish their talks or event in the Masjid application.
 
 - 1.4.3 Project Deliverables:
-•	Scope statement
-•	Progress report
-•	Meeting notes
-•	Finalized Project
+Scope statement, Progress report, Meeting notes, Finalized Project
 
 
 
