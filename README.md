@@ -1,6 +1,6 @@
     
 # Project Title : Masjid2U
-# Group Members
+# Group Members: Brotherhud
 - Anwar Ikhlas (1611959)
 - Sallehudin Ali (1617315)
 - Farhan Hatta (1114127)
