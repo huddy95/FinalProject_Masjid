@@ -33,9 +33,12 @@
 
 # 1.4 Project scope
 - 1.4.1 Scope
-- The goal is to provide a platform which will help expose all the nearby talk or religious event in an area. Masjid application is created to feature what most mosque do not have, announcement for kuliyah and when and where it is whereabouts. This project will be developed over a period of 1 month which will include finding the mosques and talks features. This project is to be completed by December 2018 An old school method which is announcement on the mosque billboards is inefficient in terms of making alert for muslims on their talk whereabouts. Even for travelers, they can find it useful to constantly receive notifications on the whereabouts of a mosque and the talks or any class in the near future. On top of that, this application need to create a feature which allow Muslims to scan their location within a certain distance for mosques and list out all the featured events that will be held in that mosque. They can choose from the list and join the event in a mosque with their unique identity. Another feature of this application is the question and answer segment. Upon joining a talk, registered user is allowed to write their questions on a query for submission to the speaker which is relevant to the kuliyah. 
+- The goal is to provide a platform which will help expose all the nearby talk or religious event in an area. Masjid application is created to feature what most mosque do not have, announcement for kuliyah and when and where it is whereabouts. This project will be developed over a period of one month which will include finding the mosques and talks features. This project is to be completed by December 2018. An old school method which is announcement on the mosque billboards is inefficient in terms of making alert for muslims on their talk whereabouts. Even for travelers, they can find it useful to constantly receive notifications on the whereabouts of a mosque and the talks or any class in the near future. On top of that, this application need to create a feature which allow Muslims to scan their location within a certain distance (Gps guided) for mosques and list out all the featured events that will be held in that mosque. They can choose from the list and join the event in a mosque with their unique identity. Another feature of this application is the question and answer segment. Upon joining a talk, registered user is allowed to write their questions on a query for submission to the speaker which is relevant to the kuliyah. 
 
-- Project Deliverables:
+- 1.4.2 Targeted Users
+- This application has two targeted users in which, the first targeted user is the Muslims community in general while the second targeted user is the Mosque community. The first target is the Muslims whom is looking for a place to perform their prayers and wishes to attend talks in one of the mosque available after they scan (GPS guided) the area using Masjid application. The second target is the Mosque community which wants to publish their talks or event in the Masjid application.
+
+- 1.4.3 Project Deliverables:
 •	Scope statement
 •	Progress report
 •	Meeting notes
@@ -53,7 +56,7 @@ Basically we will encounter problems of how to put the right information of the 
 For the commity of the mosque, it is easier for them to promote all the lectures and programs. Then for the public citizen, we tried to make them closer to the mosque that is actually is just around them. It is also easier for the public to know who's the speaker of the lecture.
 
 # 1.8 Summary 
- -
+ - The Masjid application is designed for the use of Muslims in general and mosque community. With the help of Gps system embedded in smartphones, Masjid application aims to provide a platform for knowledge seekers to search, attend and discuss matters in a tap of their fingers. 
 
 # 1.9 Reference
  -Google Maps 
