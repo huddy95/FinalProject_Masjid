@@ -1,10 +1,10 @@
     
 # Project Title : Masjid2U
 # Group Members
-- Anwar Ikhlas 
+- Anwar Ikhlas (1611959)
 - Sallehudin Ali (1617315)
 - Farhan Hatta (1114127)
-- Fakhru Naim
+- Fakhru Naim (1416753)
 # 1.1 Introduction
    We plan to develop an app that specifically design for masjid use. This app will help masjid committee to promote and handle their event or talk that held there easier and more efficient. Two main function of this app are the question and answer function and find nearby masjid function. Question and answer function will help the committee of the masjid having question and answer session more efficient and faster by using this app. Besides, find nearby masjid function will provide the nearest masjid location within certain radius and display what event that be held at that masjid.
    
