@@ -11,15 +11,21 @@ import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,Touchabl
 import {createStackNavigator,createAppContainer} from 'react-navigation';
 import ListQuestionsScreen from './Screens/ListQuestionsScreen';
 import EventScreen from './Screens/EventScreen';
+import CreateEventScreen from './Screens/CreateEventScreen';
+import AdminQuestionScreen from './Screens/AdminQuestionScreen';
+import UserEventScreen from './Screens/UserEventScreen';
+import CreateQuestionScreen from './Screens/CreateQuestionScreen';
 
-
-const styles = require('./app/style');
 console.disableYellowBox = true;
 
 
 const RootStack = createStackNavigator({
   Question : ListQuestionsScreen,
-  Event: EventScreen
+  Event: EventScreen,
+  CreateEvent: CreateEventScreen,
+  AdminQuestion: AdminQuestionScreen,
+  UserEvent: UserEventScreen,
+  CreateQuestion: CreateQuestionScreen,
   },
   {
     initialRouteName: 'Event'

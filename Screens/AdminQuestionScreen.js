@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Modal } from 'react-native';
-import { Button, Fab, Icon, Container} from 'native-base';
+import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Alert} from 'react-native';
+
 import { db } from './../services/db';
 
 
 
 const styles = require('./../app/style');
 
-class ListQuestionsScreen extends Component {
+class AdminQuestionScreen extends Component {
 
     static navigationOptions = {
         title:"Question List",
@@ -59,9 +59,14 @@ class ListQuestionsScreen extends Component {
     renderRow(questions){
         
         return (
+            <TouchableHighlight
+            onPress = {() => {
+                this.pressRow(questions);
+             }}>
                 <View style={styles.li}>
                     <Text style={styles.liText}>{questions.message}</Text>
                 </View>
+            </TouchableHighlight>
             )
     }
 
@@ -70,36 +75,33 @@ class ListQuestionsScreen extends Component {
         this.listenForQuestions(this.questionRef);
       }
     
-  
+      pressRow(questions){
+        Alert.alert('Caution! ',
+            'Is the Question answered?',
+        [
+            {text: 'Confirm', onPress: () => {this.questionRef.child(questions._key).remove()}},
+            {text: 'Close',style: 'cancel'}
+        ],
+        { cancelable:false });
+      }
      
     render(){
 
-        const {navigation} = this.props;
-        const eventKey = navigation.getParam('eventKey');
-
             return(
-                <Container>
-                    <ListView dataSource ={this.state.dataSource}
-                        enableEmptySections={true}
-                        renderRow={this.renderRow}>
-    
-                    </ListView>
 
-                    <Fab
-                        active={true}
-                        direction="up"
-                        containerStyle={{}}
-                        style= {{backgroundColor:'#5067FF'}}
-                        position="bottomRight"
-                        onPress={ ()=>this.props.navigation.navigate('CreateQuestion',{eventKey})}>
-                        <Icon name="add" />
-                    </Fab>
-                </Container>
-                    
-                   
                
+                        <View style={styles.container}>
+                            <ListView dataSource ={this.state.dataSource}
+                               enableEmptySections={true}
+                               renderRow={this.renderRow}>
+    
+                         </ListView>
+                   
+                     </View>
+               
+                
             ) 
     }
 }
 
-export default ListQuestionsScreen;
+export default AdminQuestionScreen;

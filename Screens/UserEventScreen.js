@@ -15,7 +15,7 @@ const styles = require('./../app/style');
 
 //console.disableYellowBox = true;
 
-class EventScreen extends Component {
+class UserEventScreen extends Component {
 
 
   static navigationOptions = {
@@ -80,13 +80,13 @@ class EventScreen extends Component {
             `Event name: ${event.name}
             Event date: ${event.date}`,
             [
-                {text: 'Delete Event', onPress: () => {this.itemsRef.child(event._key).remove()}},
-                {text: 'Close',style: 'cancel'}
+             
+                {text: 'OK',style: 'cancel'}
             ],
             { cancelable:false });
   }
   pressRow(event){
-    this.props.navigation.navigate('AdminQuestion',{eventKey:event._key});
+    this.props.navigation.navigate('Question',{eventKey:event._key});
   }
 
   renderRow(event){
@@ -116,15 +116,6 @@ class EventScreen extends Component {
           renderRow = {(this.renderRow)}
           /> 
 
-          <Fab
-            active={true}
-            direction="up"
-            containerStyle={{}}
-            style= {{backgroundColor:'#5067FF'}}
-            position="bottomRight"
-            onPress={ ()=>this.props.navigation.navigate('CreateEvent')}>
-            <Icon name="calendar" />
-          </Fab>
       </Container>
       
        
@@ -133,6 +124,6 @@ class EventScreen extends Component {
   }
 }
 
-export default EventScreen;
+export default UserEventScreen;
 
 
