@@ -10,10 +10,11 @@ const styles = require('./../app/style');
 class ListQuestionsScreen extends Component {
     constructor(){
         super();
-        this.questionRef = db.ref();
+        
         const dataSource = new ListView.DataSource({rowHasChanged:(r1,r2)=> r1 !== r2});
         this.state = {
-            dataSource:dataSource
+            dataSource:dataSource,
+
           }
           this.questionRef = this.getRef().child('questions');
           this.renderRow = this.renderRow.bind(this);
@@ -22,8 +23,14 @@ class ListQuestionsScreen extends Component {
     getRef(){
         return db.ref();
     }
+
+  
     listenForQuestions(questionRef){
-        questionRef.on('value',(dataSnapshot)=>{
+
+        const {navigation} = this.props;
+        const eventKey = navigation.getParam('eventKey');
+
+        questionRef.orderByChild("eventID").equalTo(eventKey).on('value',(dataSnapshot)=>{
             var questions = [];
             dataSnapshot.forEach((child)=>{
                 questions.push({
@@ -43,28 +50,11 @@ class ListQuestionsScreen extends Component {
 
     renderRow(questions){
         
-        const {navigation} = this.props;
-        const eventKey = navigation.getParam('eventKey');
-
         return (
                 <View style={styles.container}>
-                    <Text style={styles.liText}>{eventKey}</Text>
+                    <Text style={styles.liText}>{questions.message}</Text>
                 </View>
             )
-       /* if((questions.eventID) === eventKey){
-            return (
-                <View style={styles.container}>
-                    <Text style={styles.liText}>{eventKey}</Text>
-                </View>
-            )
-        }
-
-        else {
-            return (<View style={styles.container}>
-                <Text style={styles.liText}>empty</Text>
-            </View>)
-        }*/
-       
     }
 
     componentDidMount(){
