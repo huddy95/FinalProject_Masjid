@@ -1,44 +1,76 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Modal } from 'react-native';
-import {createStackNavigator,createAppContainer} from 'react-navigation';
-import ListQuestionsScreen from './Screens/ListQuestionsScreen';
-import EventScreen from './Screens/EventScreen';
-import CreateEventScreen from './Screens/CreateEventScreen';
-import AdminQuestionScreen from './Screens/AdminQuestionScreen';
-import UserEventScreen from './Screens/UserEventScreen';
-import CreateQuestionScreen from './Screens/CreateQuestionScreen';
-
-console.disableYellowBox = true;
-
-
-const RootStack = createStackNavigator({
-  Question : ListQuestionsScreen,
-  Event: EventScreen,
-  CreateEvent: CreateEventScreen,
-  AdminQuestion: AdminQuestionScreen,
-  UserEvent: UserEventScreen,
-  CreateQuestion: CreateQuestionScreen,
-  },
-  {
-    initialRouteName: 'Event'
-  }
-);
-
-const AppContainer = createAppContainer(RootStack);
+import React, { Component } from 'react'
+import {
+  AppRegistry,
+  StyleSheet,
+  TouchableHighlight,
+  Text,
+  View,
+} from 'react-native'
 
 export default class App extends Component {
-  render() {
-    return(
-      <AppContainer />
-    );
+  constructor(props) {
+    super(props)
+    this.state = { count: 0 }
+  }
+
+  onPress = () => {
+    this.setState({
+      count: this.state.count+1
+    })
+  }
+
+ render() {
+    return (
+      <View style={styles.container}>
+        <TouchableHighlight
+         style={styles.button}
+         onPress={this.onPress}
+        >
+         <Text> Place Announcement </Text>
+        </TouchableHighlight>
+
+               <TouchableHighlight
+         style={styles.button}
+         onPress={this.onPress}
+        >
+         <Text> Create Talk </Text>
+        </TouchableHighlight>
+
+                <TouchableHighlight
+         style={styles.button}
+         onPress={this.onPress}
+        >
+         <Text> List Question </Text>
+        </TouchableHighlight>
+        
+        <View style={[styles.countContainer]}>
+          <Text style={[styles.countText]}>
+            { this.state.count !== 0 ? this.state.count: null}
+          </Text>
+        </View>
+      </View>
+    )
   }
 }
 
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'powderblue',
+    flex: 1,
+    justifyContent: 'space-around',
+    flexDirection:'column',
+    paddingHorizontal: 10
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#DDDDDD',
+    padding: 10
+  },
+  countContainer: {
+    alignItems: 'center',
+    padding: 10
+  },
+  countText: {
+    color: '#FF00FF'
+  }
+})
