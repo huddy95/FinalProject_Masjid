@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Modal } from 'react-native';
-import { Button, Fab, Icon, Container} from 'native-base';
+import { Text, View, ListView} from 'react-native';
+import {  Fab, Icon, Container} from 'native-base';
 import { db } from './../services/db';
 
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Alert} from 'react-native';
+import { Text, View, ListView,TouchableHighlight,Alert} from 'react-native';
 
 import { db } from './../services/db';
 

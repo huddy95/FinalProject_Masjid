@@ -7,8 +7,8 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Modal, Alert } from 'react-native';
-import { Button, Fab, Icon, Container} from 'native-base';
+import { Text,  View, ListView,TouchableHighlight, Alert,Button} from 'react-native';
+import {  Fab, Icon, Container} from 'native-base';
 import { db } from './../services/db';
 
 const styles = require('./../app/style');
@@ -20,6 +20,8 @@ class EventScreen extends Component {
 
   static navigationOptions = {
     title:"Event List",
+
+      headerLeft:null,
     headerStyle: {
       backgroundColor: '#2377ff'
     }

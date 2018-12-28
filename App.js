@@ -15,6 +15,7 @@ import CreateEventScreen from './Screens/CreateEventScreen';
 import AdminQuestionScreen from './Screens/AdminQuestionScreen';
 import UserEventScreen from './Screens/UserEventScreen';
 import CreateQuestionScreen from './Screens/CreateQuestionScreen';
+import LoginScreen from './Screens/LoginScreen';
 
 console.disableYellowBox = true;
 
@@ -26,9 +27,10 @@ const RootStack = createStackNavigator({
   AdminQuestion: AdminQuestionScreen,
   UserEvent: UserEventScreen,
   CreateQuestion: CreateQuestionScreen,
+  Login: LoginScreen
   },
   {
-    initialRouteName: 'Event'
+    initialRouteName: 'Login'
   }
 );
 

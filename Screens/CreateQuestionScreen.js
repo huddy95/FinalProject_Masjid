@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Modal, Alert } from 'react-native';
-import { Container , Form, DatePicker, Input, Item, Button, Textarea, Content } from 'native-base';
+import {Text,  ListView, Alert } from 'react-native';
+import { Container , Form,Button, Textarea, Content } from 'native-base';
 import { db } from './../services/db';
 
 export default class CreateQuestionScreen extends Component{

@@ -7,8 +7,8 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View,StatusBar, ListView,TouchableHighlight,Modal, Alert } from 'react-native';
-import { Button, Fab, Icon, Container} from 'native-base';
+import {Text, View, ListView,TouchableHighlight, Alert } from 'react-native';
+import { Container} from 'native-base';
 import { db } from './../services/db';
 
 const styles = require('./../app/style');
