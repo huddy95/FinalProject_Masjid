@@ -54,7 +54,7 @@ For the committee of the masjid, it is easier for them to promote all the lectur
 
 # 1.8 Product
 -1.8.1 Database table
-![Announcement](documentation/announcment.png)
+- ![Announcement](documentation/announcment.PNG)
 
 
 # 1.9 Summary 
