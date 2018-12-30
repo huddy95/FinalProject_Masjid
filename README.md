@@ -4,7 +4,7 @@
 - Anwar Ikhlas (1611959)
 - Sallehudin Ali (1617315)
 - Farhan Hatta (1114127)
-- Fakhru Naim (1416753)
+- Muhammad Fakhru Naim bin Muhad(1416753)
 # 1.1 Introduction
    We plan to develop an app that specifically design for masjid use. This app will help masjid committee to promote and handle their event or talk that held there easier and more efficient. Two main function of this app are the question and answer function and display announcement for the masjid. Question and answer function will help the committee of the masjid having question and answer session more efficient and faster by using this app. Besides, the announcement function for displaying any announcement by the masjid’s committee.
    
@@ -59,10 +59,25 @@ For the committee of the masjid, it is easier for them to promote all the lectur
 - ![Login](documentation/login.PNG)
 - ![Question](documentation/question.PNG)
 
+-1.8.2 Entity Relationship Diagram
+-![ERD](documentation/ERD.PNG)
+
+-1.8.3 Screenshoot of the Application
+-![Login Page](documentation/1.jpeg)
+-![Participent Page to Ask Question](documentation/5.jpeg)
+-![Question succesfully sent](documentation/2.jpeg)
+-![Login as Admin](documentation/9.jpeg)
+-![List of Event Created](documentation/10.jpeg)
+-![Create New Event](documentation/4.jpeg)
+-![Succesfully Created an Event](documentation/8.jpeg)
+-![Event Info](documentation/7.jpeg)
+-![Question List from Participent](documentation/6.jpeg)
+-![Confirm Answered Question](documentation/3.jpeg)
+
+
+
 
 # 1.9 Summary 
- - The Masjid application is designed for the use of Muslims in general and mosque community. With the help of Gps system embedded in smartphones, Masjid application aims to provide a platform for knowledge seekers to search, attend and discuss matters in a tap of their fingers. 
+ - Masjid2U application is a mobile application which is specifically design for masjid use. This application is developed on order to help Muslim community gain more knowledge by providing specific application which can help them to ask question during religious talk in masjid. This application is meant to make masjid to post their announcement in specific place and easier.
 
-# 1.9 Reference
- -Google Maps 
- https://www.google.com/maps
+
