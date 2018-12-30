@@ -6,16 +6,15 @@
 - Farhan Hatta (1114127)
 - Fakhru Naim (1416753)
 # 1.1 Introduction
-   We plan to develop an app that specifically design for masjid use. This app will help masjid committee to promote and handle their event or talk that held there easier and more efficient. Two main function of this app are the question and answer function and find nearby masjid function. Question and answer function will help the committee of the masjid having question and answer session more efficient and faster by using this app. Besides, find nearby masjid function will provide the nearest masjid location within certain radius and display what event that be held at that masjid.
+   We plan to develop an app that specifically design for masjid use. This app will help masjid committee to promote and handle their event or talk that held there easier and more efficient. Two main function of this app are the question and answer function and display announcement for the masjid. Question and answer function will help the committee of the masjid having question and answer session more efficient and faster by using this app. Besides, the announcement function for displaying any announcement by the masjid’s committee.
    
 # 1.2 Problem Description
 - Masjid do not have any specific platform or any apps that can help ustaz or ustazah for question and answer sessions.  
 
 - 1.2.1 Background
 - In traditional ways, question and answer session be held using microphone or using paper if they want to ask question. This way doesn’t give an equal opportunity in asking the questions, especially for introvert person. To this kind of person, they need to organize their word well and it is hard for them to do it when people looking at them. So, they cannot deliver their question well.
-
 - 1.2.2 Problem statement
-- Using paper is one of the solution, but percentage of peoples nowadays carry their smartphone is higher than peoples who brings paper anyway they go. Sometimes they do not have a piece of paper and a pen to write down their question. There are some apps that may be use, but that apps are seem complicated and complex for some novice user such as old people, people who has low computer background.
+-Using paper is one of the solutions, but percentage of peoples nowadays carry their smartphone is higher than peoples who brings paper anyway they go. Sometimes they do not have a piece of paper and a pen to write down their question. There are some apps that may be use, but that apps are seem complicated and complex for some novice user such as old people, people who has low computer background.
 
 - List of Problem:
 1.	People difficult to ask question using microphone or using paper. Maybe the microphone far from them or they do not have paper at that time to right their question.
@@ -23,21 +22,20 @@
 3.	Does not have any specific application yet for masjid.
 
 # 1.3 Project objective
-- This project is meant to develop an application that can solve the several problems and can automate some of traditional ways, and make question and answer process faster and easier. The objective of this application are:
-1)	To help introvert people ask questions easier.
-2)	To make question and answer session in masjid more efficient and faster.
-3)	To develop a specific application or platform for masjid use.
-4)	To ease novice user using computer technology in their life.
-5)	To help ustaz or ustazah to receive question from audience easier and store it safely
-6)  To help peoples find masjid near to them easily and provide information about the program that held at the masjid.
+-This project is meant to develop an application that can solve the several problems and can automate some of traditional ways, and make question and answer process faster and easier. The objectives of this application are:
+1.	To help introvert people ask questions easier.
+2.	To make question and answer session in masjid more efficient and faster.
+3.	To develop a specific application or platform for masjid use.
+4.	To ease novice user using computer technology in their life.
+5.	To help ustaz or ustazah to receive question from audience easier and store it safely
+6.	To help place their announcement easier and attract more people to view the announcement.
 
 # 1.4 Project scope
 - 1.4.1 Scope
-- The goal is to provide a platform which will help expose all the nearby talk or religious event in an area. Masjid application is created to feature what most mosque do not have, announcement for kuliyah and when and where it is whereabouts. This project will be developed over a period of one month which will include finding the mosques and talks features. This project is to be completed by December 2018. An old school method which is announcement on the mosque billboards is inefficient in terms of making alert for muslims on their talk whereabouts. Even for travelers, they can find it useful to constantly receive notifications on the whereabouts of a mosque and the talks or any class in the near future. On top of that, this application need to create a feature which allow Muslims to scan their location within a certain distance (Gps guided) for mosques and list out all the featured events that will be held in that mosque. They can choose from the list and join the event in a mosque with their unique identity. Another feature of this application is the question and answer segment. Upon joining a talk, registered user is allowed to write their questions on a query for submission to the speaker which is relevant to the kuliyah. 
+- The goal of our application is to help both party between masjid’s community and public. This application been developed with intention to make question and answer session in masjid more efficient and convenient. Also, to implement IT technologies in masjid environment and take benefit from it. Transform the traditional way into automated ways. Besides, this application may help masjid’s community to place and spread their announcement more specific, faster and easier. This application expected to be finish by the end of December 2018. 
 
 - 1.4.2 Targeted Users
-- This application has two targeted users in which, the first targeted user is the Muslims community in general while the second targeted user is the Mosque community. The first target is the Muslims whom is looking for a place to perform their prayers and wishes to attend talks in one of the mosque available after they scan (GPS guided) the area using Masjid application. The second target is the Mosque community which wants to publish their talks or event in the Masjid application.
-
+- •	This application has two targeted users in which, the first targeted user is the Muslims community in general while the second targeted user is the masjid’s community. In early development of the application, we target only one masjid and to plan expend the scope later. 
 - 1.4.3 Project Deliverables:
 1.  Scope statement
 2.  Progress report
@@ -45,17 +43,21 @@
 4.  Finalized Project
 
 # 1.5 Constraints
-Basically we will encounter problems of how to put the right information of the masjid. Then we will be having hard time to connect our app to the GPS system. Time and skill that we have also becomes part of our constraint.
-
+Basically, we will encounter problems of how to put the right information of the masjid. Then we will be having hard time to connect our app to the GPS system. Time and skill that we have also becomes part of our constraint. Due to that constraint, we eliminate the gps function for locating all nearby masjid and just focus on a masjid only.
 # 1.6 Project Stages
 During the development of the project, there are several stages that are required to be completed before proceding to the next stage. In the design phase, the layout of the application will first be designed using sketches to get basic understanding of how the application will look like. Next, we can proceed to the development phase where 2 major milestones are carried out in parallel, the coding of the app layout and the programming of the functions of the app. This is achieved by assigning the task to pairs;one pair of team members design the layout while the other pair code the functions. The progress of the project can be tracked through the Gantt chart.
 
 ![Project Schedule](documentation/gantt-chart.jpg)
 
 # 1.7 Significance of Project
-For the commity of the mosque, it is easier for them to promote all the lectures and programs. Then for the public citizen, we tried to make them closer to the mosque that is actually is just around them. It is also easier for the public to know who's the speaker of the lecture.
+For the committee of the masjid, it is easier for them to promote all the lectures and programs. For the public, the apps will help them to view and read the announcement by the masjid and the main objective is to help them held question and answer session with ease and convenient.
 
-# 1.8 Summary 
+# 1.8 Product
+-1.8.1 Database table
+![Announcement](documentation/announcment.png)
+
+
+# 1.9 Summary 
  - The Masjid application is designed for the use of Muslims in general and mosque community. With the help of Gps system embedded in smartphones, Masjid application aims to provide a platform for knowledge seekers to search, attend and discuss matters in a tap of their fingers. 
 
 # 1.9 Reference
